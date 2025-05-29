@@ -1,16 +1,14 @@
 # EcologicalSimulation
 
-***
 ## Contributors
 
 * David
     
 * Lifan
 
-***
 ## Requirements
 
-'pygame'
+* 'pygame'
 
 ### Download by pasting: 
     pip install -r requirements.txt
