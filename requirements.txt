@@ -1,1 +1,1 @@
-pygame
+wheel==0.45.1
