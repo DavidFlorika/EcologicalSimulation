@@ -3,6 +3,13 @@ import pygame
 import sys
 
 class Food:
+    """
+    Represents a food entity in the ecological simulation.
+    
+    Food provides sustenance for Consumers. It passively reproduces over time,
+    spawning new Food entities nearby. It can be targeted by a single Consumer 
+    at a time to prevent multiple Consumers from going after the same Food.
+    """
     # setting up screen size and color
     width = 800
     height = 600

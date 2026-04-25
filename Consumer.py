@@ -4,6 +4,13 @@ import sys
 from Food import Food
 
 class Consumer:
+    """
+    Represents a consumer entity in the ecological simulation.
+    
+    Consumers move around the environment, seek out Food objects to eat, and reproduce
+    when they have consumed enough food. They lose hunger over time and die if their 
+    hunger drops to zero.
+    """
     width = 800
     height = 600
 

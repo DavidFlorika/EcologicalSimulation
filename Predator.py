@@ -4,6 +4,13 @@ import sys
 from Consumer import Consumer
 
 class Predator:
+    """
+    Represents a predator entity in the ecological simulation.
+    
+    Predators hunt and consume Consumer objects. Similar to Consumers, they 
+    move around, reproduce when they have eaten enough, and die if they starve.
+    They move faster than Consumers.
+    """
     width = 800
     height = 600
 

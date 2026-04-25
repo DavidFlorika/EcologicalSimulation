@@ -7,6 +7,14 @@ from Food import Food
 from Predator import Predator
 
 class main:
+    """
+    The main controller for the ecological simulation game.
+    
+    This class handles the initialization of the Pygame environment, sets up the
+    initial populations of Food, Consumers, and Predators based on user input,
+    and runs the main game loop. The game loop updates the state of all entities,
+    handles their interactions (eating, reproducing, dying), and redraws the screen.
+    """
     X = 800
     Y = 600
     def __init__(self):
