@@ -1,6 +1,5 @@
 import random
 import pygame
-import sys
 from Consumer import Consumer
 
 class Predator:

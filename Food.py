@@ -1,6 +1,4 @@
-import random
 import pygame
-import sys
 
 class Food:
     """

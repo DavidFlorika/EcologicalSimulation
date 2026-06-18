@@ -1,7 +1,6 @@
 import sys
 import random
 import pygame
-import math
 from Consumer import Consumer
 from Food import Food
 from Predator import Predator

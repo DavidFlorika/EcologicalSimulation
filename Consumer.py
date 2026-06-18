@@ -1,6 +1,5 @@
 import random
 import pygame
-import sys
 from Food import Food
 
 class Consumer:
